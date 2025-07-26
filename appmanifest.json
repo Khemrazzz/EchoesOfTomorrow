@@ -1,6 +1,6 @@
 {
-	"name": "NewGame",
-	"short_name": "NewGame",
+	"name": "EchoesOfTomorrow",
+	"short_name": "EchoesOfTomorrow",
 	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
