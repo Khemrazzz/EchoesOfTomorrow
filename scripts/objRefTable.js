@@ -66,7 +66,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetPosToObject,
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Browser.Acts.SetWarnOnClose,
-		C3.Plugins.Browser.Acts.Close
+		C3.Plugins.Browser.Acts.Close,
+		C3.Plugins.Sprite.Acts.MoveToTop
 	];
 };
 self.C3_JsPropNameTable = [
@@ -195,6 +196,32 @@ self.C3_JsPropNameTable = [
 	{ruins6: 0},
 	{waste1: 0},
 	{Audio: 0},
+	{Background_ForestFate_past: 0},
+	{Background_ForestFate_future: 0},
+	{beginning_text: 0},
+	{Play_btn: 0},
+	{beginning_text2: 0},
+	{Play_btn2: 0},
+	{Background_UrbanEvolution_past: 0},
+	{beginning_text3: 0},
+	{Play_btn3: 0},
+	{Background_ForestFate_past2: 0},
+	{beginning_text4: 0},
+	{Play_btn4: 0},
+	{beginning_text5: 0},
+	{Play_btn5: 0},
+	{Background_RiversJourney_Present: 0},
+	{Background_RiversJourney_past: 0},
+	{beginning_text6: 0},
+	{Play_btn6: 0},
+	{Background_UrbanEvolution_present: 0},
+	{Background_UrbanEvolution_future: 0},
+	{background1: 0},
+	{background22: 0},
+	{backrground33: 0},
+	{background444: 0},
+	{background2255: 0},
+	{background88: 0},
 	{herolives: 0},
 	{coinscore: 0},
 	{herolives2: 0},
@@ -214,7 +241,9 @@ self.C3_JsPropNameTable = [
 	{bonuslvl3: 0},
 	{herolives8: 0},
 	{coinscore8: 0},
-	{bonuslvl4: 0}
+	{bonuslvl4: 0},
+	{FullText: 0},
+	{CharIndex: 0}
 ];
 
 self.InstanceType = {
@@ -330,5 +359,31 @@ self.InstanceType = {
 	ruin5: class extends self.ISpriteInstance {},
 	ruins6: class extends self.ISpriteInstance {},
 	waste1: class extends self.ISpriteInstance {},
-	Audio: class extends self.IInstance {}
+	Audio: class extends self.IInstance {},
+	Background_ForestFate_past: class extends self.ISpriteInstance {},
+	Background_ForestFate_future: class extends self.ISpriteInstance {},
+	beginning_text: class extends self.ITextInstance {},
+	Play_btn: class extends self.ISpriteInstance {},
+	beginning_text2: class extends self.ITextInstance {},
+	Play_btn2: class extends self.ISpriteInstance {},
+	Background_UrbanEvolution_past: class extends self.ISpriteInstance {},
+	beginning_text3: class extends self.ITextInstance {},
+	Play_btn3: class extends self.ISpriteInstance {},
+	Background_ForestFate_past2: class extends self.ISpriteInstance {},
+	beginning_text4: class extends self.ITextInstance {},
+	Play_btn4: class extends self.ISpriteInstance {},
+	beginning_text5: class extends self.ITextInstance {},
+	Play_btn5: class extends self.ISpriteInstance {},
+	Background_RiversJourney_Present: class extends self.ISpriteInstance {},
+	Background_RiversJourney_past: class extends self.ISpriteInstance {},
+	beginning_text6: class extends self.ITextInstance {},
+	Play_btn6: class extends self.ISpriteInstance {},
+	Background_UrbanEvolution_present: class extends self.ISpriteInstance {},
+	Background_UrbanEvolution_future: class extends self.ISpriteInstance {},
+	background1: class extends self.ISpriteInstance {},
+	background22: class extends self.ISpriteInstance {},
+	backrground33: class extends self.ISpriteInstance {},
+	background444: class extends self.ISpriteInstance {},
+	background2255: class extends self.ISpriteInstance {},
+	background88: class extends self.ISpriteInstance {}
 }
