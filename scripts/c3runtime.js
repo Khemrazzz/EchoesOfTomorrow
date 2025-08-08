@@ -1303,6 +1303,10 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		() => "run",
+		() => 0,
+		() => 1,
+		() => "",
+		() => 180,
 		() => "idle",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
@@ -1312,10 +1316,6 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("Coin: ", v0.GetValue());
 		},
-		() => 0,
-		() => 1,
-		() => "",
-		() => 180,
 		() => "walk",
 		p => {
 			const n0 = p._GetNode(0);
